@@ -33,6 +33,8 @@ body, html {
     height: 100vh;
     background-image: url("../assets/fundo.jpg");
     background-size: cover;
+    text-align: center;
+    padding: 0 12px;
 }
 
 .perfil-image {
@@ -48,6 +50,31 @@ body, html {
 .buttons button:first-child {
     margin-right: 8px;
 }
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  .name,
+  .buttons {
+    opacity: 0;
+    animation: fadeIn 3.0s ease-out forwards;
+  }
+
+  .information {
+    opacity: 0;
+    animation: fadeIn 4.0s ease-out forwards;
+  }
+
+  .description {
+    opacity: 0;
+    animation: fadeIn 4.5s ease-out forwards;
+  }
 
 .footer {
         
