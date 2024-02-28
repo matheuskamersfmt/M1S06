@@ -46,6 +46,7 @@ body, html {
     justify-content: space-around;
     align-items: center;
     height: 70px;
+    background-color: aqua;
 }
 
 .menu-footer a {
