@@ -41,6 +41,14 @@ body, html {
     height: 120px;
 }
 
+.buttons {
+    display: flex;
+}
+
+.buttons button:first-child {
+    margin-right: 8px;
+}
+
 .footer {
         
 }
