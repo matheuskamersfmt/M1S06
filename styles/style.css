@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: aqua;
+    width: 100%;
+}
+
+.section-1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer {
+    font-weight: 700;
+}
